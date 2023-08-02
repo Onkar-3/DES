@@ -4,6 +4,34 @@
 <meta charset="ISO-8859-1">
 <title>Registration Form</title>
 <link rel="stylesheet" href="Institute.css">
+<script>
+function validateForm() {
+  var name = document.getElementById('name').value;
+  var district = document.getElementById('District').value;
+  var diseCode = document.getElementById('DISE Code').value;
+  var instituteCode = document.getElementById('Institute Code').value;
+  var addressLine1 = document.getElementsByName('address')[0].value;
+  var addressLine2 = document.getElementsByName('address1')[0].value;
+  var password = document.getElementById('psw').value;
+  var repeatPassword = document.getElementById('psw-repeat').value;
+  var principleName = document.getElementsByName('pname')[0].value;
+  var mobileNumber = document.getElementsByName('mnum')[0].value;
+  var telephone = document.getElementsByName('tp')[0].value;
+
+  if (name === "" || district === "" || diseCode === "" || instituteCode === "" || addressLine1 === "" || addressLine2 === "" || password === "" || repeatPassword === "" || principleName === "" || mobileNumber === "" || telephone === "") {
+    alert("Please fill in all the required fields.");
+    return false;
+  }
+
+ 
+  if (password !== repeatPassword) {
+    alert("Passwords do not match.");
+    return false;
+  }
+
+  return true;
+}
+</script>
 </head>
 <body>
 <h2>Registration Request Form </h2>
@@ -96,12 +124,15 @@
     <input type="text" name="tp"  required><br><br>
    
     <hr>
-    <form action="ina.html">
-    <button type="submit"  class="submitbtn">Submit</button>
-    </form>
   </div>
 
-  
+</form>
+</body>
+<body>
+	<form onsubmit="return validateForm();" action="ina.html">
+  <!-- Your form elements and labels here -->
+  <button type="submit" class="submitbtn">Submit</button>
 </form>
 </body>
 </html>
+
