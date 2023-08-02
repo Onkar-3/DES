@@ -11,20 +11,16 @@
 	<body>
 		<script>
 			function validate() {
-				var x=document.getElementById('uname').value;
-				var y=document.getElementById('upass').value;
+				var uname =document.getElementById('uname').value;
+				var upass =document.getElementById('upass').value;
 				
-				console.log('value of x '+x);
-				console.log('value of y '+y);
-
-				if(x =="") {
-					//alert('Username cannot be blank');	
+				
+				if(uname =="") {
 					document.getElementById("nameErr").innerHTML="Username cannot be blank";
 					return false;
 				}		
 				
 				if(y =="") {
-					//alert('Password cannot be blank');	return false
 					document.getElementById("passErr").innerHTML="Password cannot be blank";
 					return false;
 				}			
@@ -57,7 +53,7 @@
 			Not a member yet? Click <a href="Registration.html">Here</a> to register<br><br>	
 			
 			
-			<button onclick="return validate();" type="submit">Login</button>	<br>
+			<button onclick="return validate();" type="submit">Login</button><br>
 		</form>
 		
 		
