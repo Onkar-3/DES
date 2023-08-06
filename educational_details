@@ -1,0 +1,30 @@
+create table educational_details (aadhar_number varchar(12) primary key, tenth_percentage float, twelth_percentage float, ninth_percentage float, admission_fee int, tuition_fee int, tenth_passing_year int, twelth_passing_year int, ninth_passing_year int, foreign key (aadhar_number) references student (aadhar_number)); 
+
+insert into educational_details values('142376521987',78.80,76,80,15000,12345,2017,2019,2016,'142376521987');
+
+insert into educational_details values('243156748976',88.80,86,80,17000,14000,2016,2018,2015,'243156748976');
+
+insert into educational_details values('254575876989',80,86,90,17500,13500,2017,2019,2016,'254575876989');
+
+
+insert into educational_details values('293809326723',78.80,83,80,10000,14000,2016,2018,2015,'293809326723');
+
+insert into educational_details values('343799834403',60,66,90,17500,13500,2017,2019,2016,'343799834403');
+
+
+insert into educational_details values('345267521241',68.80,56,80,17000,14000,2016,2018,2015,'345267521241');
+
+insert into educational_details values('345875986938',54,56,50,17500,13500,2017,2019,2016,'345875986938');
+
+insert into educational_details values('456289762312',98.80,96,93,17000,14000,2016,2018,2015,'456289762312');
+
+
+insert into educational_details values('671525451672',70,76,76,17500,13500,2017,2019,2016,'671525451672');
+
+insert into educational_details values('892737826524',58.80,56,50,17000,14000,2016,2018,2015,'892737826524');
+
+insert into educational_details values('897635263526',70,75,78,17500,13500,2017,2019,2016,'897635263526');
+
+
+insert into educational_details values('923948739948',98.80,95,96,17000,14000,2016,2018,2015,'923948739948');
+
