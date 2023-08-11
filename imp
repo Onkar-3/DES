@@ -1,0 +1,37 @@
+Please refer below documentation for widget development.
+
+UWA
+
+UWA Documentation: 
+https://uwa.netvibes.com/docs/Uwa/html/index.html
+
+Libraries to use (available in widget factory third party libraries):
+https://widgetrepository-thirdparty-cdn.3ds.com/list.txt
+
+DSDoc - JavaScript API Reference:
+https://dsdoc.dsone.3ds.com/devdoc/3DEXPERIENCER2021x/en/DSInternalDoc.htm?show=CAAWebAppsJSRef/CAAWebAppsTcJSRefToc.htm 
+
+CSS / Branding styles to consider:
+https://dsdoc.dsone.3ds.com/devrunv6/webapps/UIKITPreview/index.html
+
+Code Promotion process through Widget factory:
+https://dsext001-eu1-215dsi0708-3dswym.3dexperience.3ds.com/#community:1208/wiki:17246
+
+UIKIT 
+https://dsxdev-online.dsone.3ds.com/devrun/webapps/UIKITPreview/index.html#/
+
+Widget factory manager 
+https://widgetfactorymanager.dsone.3ds.com/Home
+
+DS Doc 
+https://dsdoc.dsone.3ds.com/dsdoc.html
+
+
+Vue.js
+
+Vue.js Documentation:
+https://vuex.vuejs.org/guide/ 
+https://vuejs.org/v2/guide/index.html 
+
+Usage of third-party UI framework (Element UI)
+https://element.eleme.io/#/en-US 
